@@ -1,0 +1,36 @@
+.new-collections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 90vh;
+}
+
+/* Title Styling */
+.new-collections h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Divider Styling */
+.new-collections hr {
+    width: 200px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #252525;
+}
+
+/* Items Container */
+.collections {
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin-top: 50px;
+gap:30px;
+
+
+}

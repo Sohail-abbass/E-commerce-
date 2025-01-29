@@ -1,0 +1,36 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 90vh;
+}
+
+/* Title Styling */
+.popular h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Divider Styling */
+.popular hr {
+    width: 200px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #252525;
+}
+
+/* Items Container */
+.popular-item {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto new rows */
+    justify-content: center; /* Center items in the container */
+    gap: 20px; /* Spacing between items */
+    margin-top: 20px;
+    width: 100%; /* Ensure the container stretches fully */
+}

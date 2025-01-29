@@ -1,0 +1,136 @@
+
+
+
+
+
+
+  /* CartItems.css */
+
+/* Main container styles */
+.cartitems {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  /* Header styling */
+  .cartitems-header {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Divider */
+  .cartitems hr {
+    border: none;
+    border-top: 2px solid #ddd;
+    margin: 10px 0;
+  }
+  
+  /* Cart item row */
+  .cartitems-row {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cartitems-row img.carticon-product-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .cartitems-row p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Quantity display */
+  .cartitems-quantity {
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Remove icon */
+  .cartitems-row img.cart-remove-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .cartitems-row img.cart-remove-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Footer summary */
+  .cartitems-footer {
+    margin-top: 20px;
+  }
+  
+  .cartitems-summary {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cartitems-total-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .cartitems-total-row h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .cartitems-summary hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+  }
+  
+  /* Checkout button */
+  .checkout-button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .checkout-button:hover {
+    background-color: #d62839;
+  }
+  
