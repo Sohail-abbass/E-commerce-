@@ -10,7 +10,7 @@
     margin-bottom: 50px;
     background:linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%);
     gap: 30px;
-    margin-top: 300px;
+    /* margin-top: 300px; */
 }
 .newsletter h1{
     color: #454545;

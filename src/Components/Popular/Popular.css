@@ -3,10 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    padding: 20px;
     width: 100%;
     height: 90vh;
+  
 }
 
 /* Title Styling */
@@ -31,6 +30,6 @@
     flex-wrap: wrap; /* Allow items to wrap onto new rows */
     justify-content: center; /* Center items in the container */
     gap: 20px; /* Spacing between items */
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%; /* Ensure the container stretches fully */
 }

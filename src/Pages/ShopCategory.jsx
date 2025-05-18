@@ -3,6 +3,7 @@ import { ShopContext } from "../Context/ShopContext";
 import "./CSS/ShopCategory.css";
 import { Item } from "../Components/Item/Item";
 import dropdown_icon from "../Components/Assets/dropdown_icon.png";
+import ImageGrid from "../Components/ImageGrid/ImageGrid";
 // It receives banner as a prop (men_banner).
 const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext);
@@ -38,8 +39,11 @@ const ShopCategory = (props) => {
          <div className="shopcategory-loadmore"> 
           Explore more
         </div> 
+        <ImageGrid/>
       </div>
     </div>
   );
 };
 export default ShopCategory;
+
+
